@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Poppins:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'); */
+*{
+    margin: 0; padding: 0; box-sizing: border-box;/* font-family: 'Poppins', sans-serif; */ font-family: 'Comfortaa', cursive;
+}
+
+/* nav ul li a{
+    color: white !important;
+} */
+
+a:hover{
+    color: white !important; /* color: rgba(0, 0, 255, 0.253) !important; */font-weight: 900 !important;
+    
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.nav-top {
+    background: white;
+    transition: 0.7s;
+    z-index: 99999;
+}
+
+.banner {
+    background: url(../img/bg111.webp) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.banner .banner-content {
+    padding: 250px 0px 220px 0px;
+}
+
+.banner .banner-content h2 {
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.banner .banner-content p {
+    font-size: 17px;
+}
+
+#bgprincipal{
+    justify-items: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.bgClaro{
+    padding: 80px;
+}
+
+
+.doctor img{
+    top: 10vh;
+    right: 20vh;
+    position: absolute;
+    
+}
+
+.moved:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/* -------------------------MEDIA QUERIES------------------------- */
