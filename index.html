@@ -138,16 +138,17 @@
   <div class="d-block bgClaro">
     <div class="container d-flex justify-content-center" id="contato">
       <div class="mb-3 col col-sm-4">
-        <h3 class="mb-3 text-center text-primary">Fale conosco</h3>
+        <h3 class="mb-3 text-center text-primary">Fale Conosco</h3>
         <label for="exampleFormControlInput1" class="form-label text-primary">Email:</label>
         <input type="email" class="form-control border-primary" id="exampleFormControlInput1"
           placeholder="seu@mail.com">
         <label for="exampleFormControlTextarea1" class="form-label mt-3 text-primary">Mensagem:</label>
         <textarea class="form-control border-primary mb-3" id="exampleFormControlTextarea1"
           placeholder="Escreve sua mensagem" rows="3"></textarea>
-        <a href="#">
-          <button class="btn btn-outline-primary" type="submit">Enviar</button>
+        <a href="#contato">
+          <button class="btn btn-outline-primary" type="submit" id="alertBtn">Enviar</button>
         </a>
+        <div id="liveAlertPlaceholder" class="mt-3"></div>
       </div>
     </div>
   </div>
